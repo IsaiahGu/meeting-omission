@@ -1,0 +1,15 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+torch
+transformers
+openai
+requests
+soundfile
+jiwer
+sentence-transformers
+accelerate
+lxml
+huggingface-hub
