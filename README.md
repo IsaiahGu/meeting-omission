@@ -1,7 +1,7 @@
 # How Bad Must the Audio Be?
 **A Speaker-Level Tolerance Test for LLM Meeting Minutes**
 
-Research code for the PAKDD 2027 manuscript. The experiment degrades one speaker's audio per AMI meeting, transcribes that speaker again and holds everyone else's transcript fixed. It compares the resulting minutes to minutes generated from the manual transcript.
+The experiment degrades one speaker's audio per AMI meeting, transcribes that speaker again and holds everyone else's transcript fixed. It compares the resulting minutes to minutes generated from the manual transcript.
 
 ## Inspect the paper results
 
@@ -48,4 +48,5 @@ done
 ```
 
 `dense_analysis.py` writes `results/noise_effects_dense.csv` and `results/dose_fit.json`. Repeat the summarization stage for each model before fitting the cross-condition results. `attr_batch.py` and `keypoints.py` provide the LLM attribution and key-point judges. `mitig.py` and `mitig_analysis.py` implement and score the recovery prompts.
+
 
